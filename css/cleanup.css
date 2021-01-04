@@ -1,1 +1,23 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+/* i think this gets rid of tags 4,5,6, and 7; not sure why it doesnt kill 2 & 3*/
+#wall #tag-3 ~ div{
+  display: none;
+}
+
+/* Cool now 2 is gone*/
+#wall div#tag-2{
+  display: none;
+}
+
+/* sweet */
+div#wall div#tag-3.wicked{
+  display: none;
+}
+
+
+
